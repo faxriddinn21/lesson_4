@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+     background: rgba(89, 50, 180, 0.863);
+}
+
+
+.text{
+    color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin-left: 250px;
+    padding: 80px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+input,
+option {
+  padding: 10px;
+  border: 1px solid gray;
+  margin-top: 30px;
+}
+label{
+    /* font-size: 18px; */
+    font-family: sans-serif;
+}
+input, select{
+    margin-left: 84px;
+}
+.name{
+    width: 250px;
+    border-color: black;
+    border-radius: 15px;
+}
+.names{
+    width: 250px;
+    margin: 3px;
+    border-color: black;
+    border-radius: 15px;
+}
+.email{
+    width: 520px;
+    border-color: black;
+    border-radius: 15px;
+}
+.phone{
+    width: 156px;
+    margin-left: 105px;
+    border-color: black;
+    border-radius: 15px;
+}
+.phones{
+    width: 156px;
+    margin-left: 23px;
+    border-color: black;
+    border-radius: 15px;
+}
+
+.select{
+    width: 336px;
+    padding: 10px;
+    margin-left: 35px;
+    margin-top: 25px;
+    border-color: black;
+    border-radius: 15px;
+}
+.Message{
+    width: 520px;
+    height: 150px;
+    border-radius: 10px;
+}
+.recaptcha{
+    /* background-color: #fff; */
+    /* color: #fff; */
+    margin-right: 100px;
+    width: 330px;
+}
+.btn{
+    width: 150px;
+    margin-left: 3px;
+    padding: 20px;
+    background-color: rgba(89, 50, 180, 0.863);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}

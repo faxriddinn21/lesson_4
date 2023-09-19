@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+</head>
+<body>
+    <div class="container">
+            <h1 class="text">Contact form</h1>
+            <form action="">
+                <div class="line_1">
+                <label for="#">Your Name</label>
+                <input class="name" type="text" name="fristname" placeholder="FristName">
+                <input class="names" type="text" name="lastname" placeholder="LastName">
+            </div>
+            <div class="line_2">
+                <label for="#">Your Email</label>
+                <input class="email" type="email" name="e-mail" placeholder="....@gmail.com">
+            </div>
+            <div class="line_3">
+                <label for="@">Phone*</label>
+                 <input class="phone" type="text" placeholder="###" >
+                 <input class="phones" type="text" placeholder="###" >
+                 <input class="phones" type="text" placeholder="###" >
+            </div>
+            <div class="line_4">
+                <label for="#">Message Subject</label>
+                <select class="select" name="" id="">
+                    <option value="Others">Others</option>
+                   </select>
+            </div>
+            <div class="line_5">
+                <label for="#">Message*</label>
+                <input class="Message" type="text">
+            </div>
+             <div class="line_6">
+                <label for="#">Verification*</label>
+                <div class="recaptcha" data-sitekey="6Le26wQoAAAAAA0dzjHIhPypHFaye4j6Ef9u1czn">
+
+                </div>
+            </form>
+            <div>____________________________________________________________________________</div>
+            <input class="btn" type="submit">
+        
+    </div>
+</body>
+</html>
